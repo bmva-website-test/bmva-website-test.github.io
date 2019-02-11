@@ -9,7 +9,7 @@ year: 2019
 ---
 <!-- Once the new conference website is released, uncomment the following section: -->
 
-<head> <script>window.location.href = "{{ site.baseurl }}"</script> </head>
+<head> <script>window.location.href = "{{ site.baseurl }}/bmva"</script> </head>
 
 If you are not redirected automatically, please manually continue to [{{ site.baseurl }}]({{ site.baseurl }}).
 
@@ -18,12 +18,12 @@ If you are not redirected automatically, please manually continue to [{{ site.ba
 
 #### in __Genoa, Italy__ on __5 – 6 May 2019__.
 
-<br>
+<!-- <br>
 
 Expressive 2019 starts and ends shortly before [Eurographics 2019](https://www.eurographics2019.it/).
 {: .top-05}
 
-<br>
+<br>-->
 
 #### Stay tuned for further information!
 ##### or access the **[Expressive 2018]({{ site.url }}/2018)** website
