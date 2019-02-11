@@ -1,7 +1,7 @@
 <!-- Upcoming Events -->
 {% for event in site.data.events %}
 {% if event.type ==  "One Day Meeting" %}
-<div class="col-sm-6 event-link" style="padding-left: 10px; padding-right: 10px;">
+<div class="col-sm-6 event-link" style="max-height: 23em; padding-left: 10px; padding-right: 10px;">
 
 <div class="panel panel-default">
 <h4 class="panel-heading"><a href="{{event.link}}">{{ event.title }}</a><br><i style="display: inline-block; margin-top: 5px; font-size: 0.95em;">{{ event.date | date: '%d %B %Y' }}</i></h4><!--style="font-size: 0.95em;"-->
