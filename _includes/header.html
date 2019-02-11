@@ -1,0 +1,32 @@
+{% assign header = site.data.header %}
+<header>
+<div class="page-header" id="title-header">
+  <div class="row">
+    <div id="logo" class="col-xs-12 col-sm-3">
+        <div class="img-responsive">
+          <img src="/img/bmva-logo.png" style="margin-top: 28px; margin-bottom: 12px;" width="100%" height="100%" alt="bmva-logo" />
+          <!--NDFC<img src="/img/{{page.year}}/expressive{{page.year}}-logo.png"  width="100%" height="100%" alt="expressive-logo" />-->
+        </div>
+		<br>
+    </div>
+    <div class="col-xs-12 col-sm-9">
+      <h1 id="page-header-title">
+        The <b>British Machine Vision Association</b><br><small>and <b>Society for Pattern Recognition</b></small>
+    </h1>
+    <!--NDFC
+	{% if page.year == 2019 %}
+      <h1 id="page-header-title">
+	  The 8<sup>th</sup> ACM/EG<br><b>Expressive Symposium</b><br>
+        <small><b>{{site.symposium[page.year].date}}</b>, {{site.symposium[page.year].location}}</small>
+	  </h1>
+	{% else %}
+	  <h1>
+	  Joint Symposium on <br><b>Computational Aesthetics</b><br><b>Sketch-Based Interfaces and Modeling</b><br><b>Non-Photorealistic Animation and Rendering</b><br>
+        <small><b>{{site.symposium[page.year].date}}</b>, {{site.symposium[page.year].location}}</small>
+	  </h1>
+	{% endif %}-->
+    </div>
+
+  </div>
+</div>
+</header>

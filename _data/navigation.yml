@@ -1,0 +1,60 @@
+# Site navigation links
+
+bmva:
+- title: One Day Meetings
+  url: /one-day-meetings/
+- title: BMVA News
+  url: /bmva-news/
+- title: Travel Bursaries
+  url: /bursaries/
+- title: Executive Committee
+  url: /committee/
+- title: Impact
+  url: /impact/
+
+2018:
+- title: Call for Submissions
+  url: /submissions/
+
+- title: Submission Instructions
+  url: /instructions/
+
+- title: Program
+  url: /program/
+
+- title: Prizes
+  url: /prizes/
+
+- title: Registration
+  url: /registration/
+
+- title: Venue
+  url: /venue/
+
+- title: Committee
+  url: /committee/
+
+- title: Previous Editions
+  url: /../previous/
+  
+2019:
+- title: Call for Submissions
+  url: /submissions/
+
+- title: Submission Instructions
+  url: /instructions/
+  
+- title: Program
+  url: /program/
+  
+- title: Keynotes
+  url: /keynotes/
+
+- title: Committee
+  url: /committee/
+
+- title: Previous Editions
+  url: /../previous/
+
+#- title: News
+#  url: /../news/

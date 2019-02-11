@@ -1,0 +1,20 @@
+<!-- SPONSORS -->
+<div class="panel panel-default" id="sponsors">
+  <h4 class="panel-heading">Affiliations</h4>
+  <div class="panel-body">
+    <div class="dense-gutter" style="text-align: center;">
+  {% for sponsor in site.bmva.main_sponsors %}
+    <div style="margin-bottom: 10px; display: inline-block;">
+        <a href="{{sponsor.url}}"><img src="{{sponsor.logo}}" class="img-responsive"></a>
+      </div>
+  {% endfor %}
+    </div>
+    <div class="dense-gutter">
+	{% for sponsor in site.bmva.sponsors %}
+	  <div class="col-sm-6" style="text-align: center;">
+        <a style="display: inline-block;" href="{{sponsor.url}}"><img src="{{sponsor.logo}}" class="img-responsive"></a>
+      </div>
+	{% endfor %}
+    </div>
+  </div>
+</div>

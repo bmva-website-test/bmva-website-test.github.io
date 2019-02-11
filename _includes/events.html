@@ -1,0 +1,18 @@
+<!-- Upcoming Events -->
+<div class="panel panel-default top1" id="deadlines">
+  <h4 class="panel-heading">Upcoming Events</h4>
+  <div class="panel-body top-1" markdown="1">
+    {% for event in site.data.events %}
+      <p style="border-bottom: 1px solid #eee; margin-bottom: 10px;">
+         <b>{{ event.type }}</b>&nbsp;&nbsp;
+         <i style="font-size: 0.95em;">{{ event.date }}</i><br>
+         <b style="padding-left: 10px; font-weight: normal; font-size: 0.95em; display: inline-block;">{{ event.title }}</b><br>
+         {% if event.image %}
+         <!--<a style="text-decoration: none;" href={{event.link}}>-->
+         <img style="padding: 10px 20px;" src="{{event.image}}" class="img-responsive">
+         <!--</a>-->
+         {% endif %}
+       </p>
+    {% endfor %}
+  </div>
+</div>

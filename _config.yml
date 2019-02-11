@@ -1,0 +1,182 @@
+# Site settings
+timezone: America/Vancouver
+
+# baseurl: '/2019' # the subpath to the year of conference
+baseurl: '' # the subpath to the year of conference
+# url: 'http://expressive.graphics' # the base hostname & protocol for your site
+url: 'http://localhost:4000'
+
+include:
+  - img
+  - css
+  - 2019
+
+author: 'Santiago Montesdeoca, Amir Semmo, Daniel Limberger'
+
+google_font_sans_serif: 'Source+Sans+Pro:300'
+
+flickr_user: '131006004@N06'
+flickr_api_key: adb4be93419edab991522b4fa92b7029
+
+# Handling Reading
+safe: true
+encoding: utf-8
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"
+      schema: NewsArticle
+      comments: true
+      share: true
+      image:
+        card: 2019/expressiveCard.jpg
+
+# Outputting
+exclude: [
+  'cibuild',
+  'Gemfile',
+  'Gemfile.lock',
+  'package.json',
+  'README.md',
+  'vendor']
+
+# CSS Minification
+sass:
+  style: compressed
+
+bmva:
+  main_sponsors:
+  - name: IAPR
+    url: http://www.iapr.org/
+    logo: /img/affiliates/logo-iapr.png
+  sponsors:
+  - name: BCS
+    url: http://bcs.org.uk/
+    logo: /img/affiliates/logo-bcs.png
+  - name: IET
+    url: http://www.theiet.org/
+    logo: /img/affiliates/logo-iet.jpg
+  - name: UKIVA
+    url: http://www.ukiva.org/
+    logo: /img/affiliates/logo-ukiva.jpg
+  - name: AVA
+    url: http://www.theava.net/
+    logo: /img/affiliates/logo-ava.jpg
+
+name: 'BMVA'
+twitter: TheBMVA
+
+# Symposium data
+symposium:
+  2018:
+    title: 'Expressive 2018'
+    name: Expressive joint Symposium
+    date: August 17-19, 2018
+    location: Victoria, British Columbia, Canada
+    URL: expressive.graphics/2018
+    sponsors:
+    - name: ACM Siggraph
+      url: http://www.siggraph.org/
+      logo: /img/SIGGRAPH-logo.png
+    - name: Eurographics
+      url: http://www.eg.org/
+      logo: /img/Eurographics-logo.png
+    - name: Disney Research
+      url: https://www.disneyresearch.com/
+      logo: /img/Disney-logo.jpg
+    abstract: April 15, 2018
+    paper: April 10, 2018
+    extension: April 17, 2018
+    acceptance: May 15, 2018
+    camera-ready: June 12, 2018
+    general-submission: May 3, 2018
+    journal-submission: May 3, 2018
+    contact: expressive2018@uvic.ca
+    disqus-shortname: expressiverendering
+    twitter: ExpressiveGfx
+    github: expressivegraphics
+    google:
+      analytics: UA-76809364-1
+      verify:
+    bing-verify:
+    submission: https://easychair.org/conferences/?conf=expressive180
+  2019:
+    title: 'Expressive 2019'
+    name: Expressive Symposium
+    date: May 5-6, 2019
+    location: Genoa, Italy
+    URL: expressive.graphics/2019
+    sponsors:
+    - name: ACM Siggraph
+      url: http://www.siggraph.org/
+      logo: /img/SIGGRAPH-logo.png
+    - name: Eurographics
+      url: http://www.eg.org/
+      logo: /img/Eurographics-logo.png
+    paper: February 21, 2019
+    acceptance: March 21, 2019
+    camera-ready: April 5, 2019
+    general-artwork-submission: March 15, 2019
+    general-poster-demo-submission: March 15, 2019
+    journal-submission: March 15, 2019
+    contact: general@expressive.graphics
+    contact-papers: papers@expressive.graphics
+    contact-arts: arts@expressive.graphics
+    contact-poster-demo: posters@expressive.graphics
+    disqus-shortname: expressiverendering
+    twitter: ExpressiveGfx
+    github: expressivegraphics
+    google:
+      analytics: UA-76809364-1
+      verify:
+    bing-verify:
+    submission: https://srmv2.eg.org/COMFy/Conference/Expressive_2019
+
+# Conference chairs
+chairs2018:
+  general: Brian Wyvill
+  generalAff: University of Victoria, Canada
+  general2: Hongbo Fu
+  general2Aff: City University of Hong Kong, Hong Kong
+  paper: Tunç Aydın
+  paperAff: Disney Research Zurich, Switzerland
+  paper2: Daniel Sýkora
+  paper2Aff: Czech Technical University in Prague, Czech Republic
+  art: Jane Prophet
+  artAff: University of London, United Kingdom
+  publicity: Santiago Montesdeoca
+  publicityAff: Nanyang Technological University, Singapore
+  publicity2: Amir Semmo
+  publicity2Aff: Hasso Plattner Institute, University of Potsdam, Germany
+
+chairs2019:
+  general: Joaquim Jorge
+  generalAff: Instituto Superior Técnico, Portugal
+  general2: Lyn Bartram
+  general2Aff: Simon Fraser University, Canada
+  general3: Chiara Eva Catalano
+  general3Aff: Institute for Applied Mathematics and Information Technologies, Italy
+  program: Craig Kaplan
+  programAff: University of Waterloo, Canada
+  program2: Angus Forbes
+  program2Aff: University of California, Santa Cruz, USA
+  program3: Stephen DiVerdi
+  program3Aff: Adobe Research, USA
+  art: Daniel Berio
+  artAff: Goldsmiths, University of London, UK
+  art2: Pedro Cruz
+  art2Aff: Northeastern University, USA
+  postersdemo: Jose Echevarria
+  postersdemoAff: Adobe Research, USA
+  publicity: Amir Semmo
+  publicityAff: Hasso Plattner Institute, University of Potsdam, Germany
